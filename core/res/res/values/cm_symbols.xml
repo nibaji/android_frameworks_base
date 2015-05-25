@@ -30,4 +30,6 @@
     <java-symbol type="string" name="global_actions_screenshot_status" />
 
     <java-symbol type="bool" name="config_singleStageCameraKey" />
+    <java-symbol type="integer" name="config_longPressOnMenuBehavior" />
+    <java-symbol type="integer" name="config_longPressOnAppSwitchBehavior" />
 </resources>
