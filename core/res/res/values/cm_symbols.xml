@@ -28,4 +28,6 @@
 
     <!-- Screenshot action status message -->
     <java-symbol type="string" name="global_actions_screenshot_status" />
+
+    <java-symbol type="bool" name="config_singleStageCameraKey" />
 </resources>
