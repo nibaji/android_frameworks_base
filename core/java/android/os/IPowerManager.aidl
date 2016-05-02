@@ -70,4 +70,7 @@ interface IPowerManager
     void setAttentionLight(boolean on, int color);
 
     void setKeyboardVisibility(boolean visible);
+
+    // update the uids being synchronized by network socket request manager
+    void updateBlockedUids(int uid, boolean isBlocked);
 }
