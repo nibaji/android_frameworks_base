@@ -368,7 +368,7 @@ public class FODCircleView extends ImageView implements Handler.Callback, TunerS
         updateAlpha();
 
         mPaintFingerprint.setColor(mColor);
-        setImageDrawable(null);
+        setImageResource(R.drawable.fod_icon_pressed);
         invalidate();
     }
 
